@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chimer.reggie.mapper.UserMapper_1">
+    <insert id="insert" useGeneratedKeys="true">
+        insert into user(name,phone,sex,id_number)
+        values(#{name},#{phone},#{sex},#{idNumber})
+    </insert>
+
+</mapper>
